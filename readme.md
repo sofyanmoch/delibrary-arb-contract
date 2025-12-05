@@ -134,7 +134,7 @@ From the deployment output, copy the `BookLending Address`.
 Navigate to the backend directory and create `.env` file:
 
 ```bash
-cd ../backend
+cd yourbackend-folder
 cp .env.example .env
 ```
 
@@ -258,13 +258,6 @@ npx truffle compile
 # Redeploy with reset
 npx truffle migrate --network development --reset
 ```
-
-## Next Steps
-
-1. **Add test data**: Use the Truffle console to interact with contracts and add books/loans
-2. **Test the API**: Try all backend endpoints
-3. **Build a frontend**: Connect your frontend to the backend API
-4. **Deploy to testnet**: When ready, deploy to Arbitrum Sepolia testnet
 
 ## Useful Commands
 
