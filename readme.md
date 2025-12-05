@@ -123,127 +123,6 @@ View the deployment info:
 cat deployment-info.json
 ```
 
-## Connecting the Backend
-
-### Step 1: Copy Contract Address
-
-From the deployment output, copy the `BookLending Address`.
-
-### Step 2: Configure Backend
-
-Navigate to the backend directory and create `.env` file:
-
-```bash
-cd yourbackend-folder
-cp .env.example .env
-```
-
-Edit the `.env` file:
-```env
-PORT=3000
-RPC_URL=http://127.0.0.1:8545
-CONTRACT_ADDRESS=<Your_BookLending_Address>
-NETWORK=development
-```
-
-### Step 3: Install Backend Dependencies
-
-```bash
-npm install
-```
-
-### Step 4: Start the Backend Server
-
-```bash
-npm start
-```
-
-The API server should start on http://localhost:3000
-
-### Step 5: Test the API
-
-```bash
-# Health check
-curl http://localhost:3000/health
-
-# Check contract status
-curl http://localhost:3000/api/booklending/status
-
-# Get total books
-curl http://localhost:3000/api/booklending/total-books
-
-# Get leaderboard
-curl http://localhost:3000/api/booklending/leaderboard?limit=10
-```
-
-## Troubleshooting
-
-### Issue: "Error: connect ECONNREFUSED 127.0.0.1:8545"
-
-**Solution:** Make sure Ganache is running on port 8545.
-
-```bash
-# Check if Ganache is running
-lsof -i :8545
-
-# Restart Ganache if needed
-ganache --port 8545
-```
-
-### Issue: "Network up to date"
-
-**Solution:** Reset the network and redeploy:
-
-```bash
-npx truffle migrate --network development --reset
-```
-
-### Issue: Contract compilation errors
-
-**Solution:** Clean and recompile:
-
-```bash
-rm -rf build/
-npx truffle compile
-```
-
-### Issue: Backend can't connect to contract
-
-**Solution:** Verify the following:
-1. Ganache is running
-2. CONTRACT_ADDRESS in backend/.env matches deployed address
-3. RPC_URL is correct (http://127.0.0.1:8545)
-
-## Testing the Contract
-
-### Using Truffle Console
-
-```bash
-npx truffle console --network development
-```
-
-In the console:
-```javascript
-// Get deployed contracts
-const bookLending = await BookLending.deployed()
-const bookToken = await BookToken.deployed()
-
-// Get accounts
-const accounts = await web3.eth.getAccounts()
-
-// Check total books
-const totalBooks = await bookLending.getTotalBooks()
-console.log("Total Books:", totalBooks.toString())
-
-// Check total loans
-const totalLoans = await bookLending.getTotalLoans()
-console.log("Total Loans:", totalLoans.toString())
-
-// Get leaderboard
-const leaderboard = await bookLending.getTopLenders(10)
-console.log("Leaderboard:", leaderboard)
-```
-
 ## Redeploying Contracts
 
 If you need to redeploy (after making changes):
@@ -279,9 +158,6 @@ npx truffle console --network development
 
 # Run tests (if you have test files)
 npx truffle test --network development
-
-# Start backend
-cd ../backend && npm start
 ```
 
 ## Network Information
