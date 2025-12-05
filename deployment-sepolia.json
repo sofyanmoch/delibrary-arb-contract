@@ -1,0 +1,29 @@
+{
+  "network": "arbitrumSepolia",
+  "chainId": 421614,
+  "bookToken": "0xb3F05BE3199539e47DDd425ABBB94E45d1A2dbe8",
+  "bookLending": "0x53533CA4dfcCCAa0451b92EA6FFcA795680012F5",
+  "deployer": "0xA0337E224c5C2E4feA3145219C3604f65f39DB4c",
+  "timestamp": "2025-12-06T00:00:00.000Z",
+  "blockNumbers": {
+    "migrations": 222059718,
+    "bookToken": 222059778,
+    "bookLending": 222059826
+  },
+  "transactionHashes": {
+    "migrations": "0x2ee202aeed3050fd7ddc4a4d9f9c2ca747733e8b0d5471b38e339f7698b49de0",
+    "bookToken": "0x3509c7a6a253f14c6f7c5b31e7ce273188a210a1171a0e7b672835e6b77654ea",
+    "bookLending": "0x8e01f1b2d60308a7dc72f7458f72e1bab7308367a6aa28dbf0581142fbd7164e"
+  },
+  "gasUsed": {
+    "migrations": 153801,
+    "bookToken": 665214,
+    "bookLending": 3747638,
+    "total": 4566653
+  },
+  "totalCost": "0.0004566653 ETH",
+  "explorer": {
+    "bookToken": "https://sepolia.arbiscan.io/address/0xb3F05BE3199539e47DDd425ABBB94E45d1A2dbe8",
+    "bookLending": "https://sepolia.arbiscan.io/address/0x53533CA4dfcCCAa0451b92EA6FFcA795680012F5"
+  }
+}

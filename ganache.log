@@ -1,0 +1,388 @@
+ganache v7.9.2 (@ganache/cli: 0.10.2, @ganache/core: 0.10.2)
+Starting RPC server
+
+Available Accounts
+==================
+(0) 0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1 (1000 ETH)
+(1) 0xFFcf8FDEE72ac11b5c542428B35EEF5769C409f0 (1000 ETH)
+(2) 0x22d491Bde2303f2f43325b2108D26f1eAbA1e32b (1000 ETH)
+(3) 0xE11BA2b4D45Eaed5996Cd0823791E0C93114882d (1000 ETH)
+(4) 0xd03ea8624C8C5987235048901fB614fDcA89b117 (1000 ETH)
+(5) 0x95cED938F7991cd0dFcb48F0a06a40FA1aF46EBC (1000 ETH)
+(6) 0x3E5e9111Ae8eB78Fe1CC3bb8915d5D461F3Ef9A9 (1000 ETH)
+(7) 0x28a8746e75304c0780E011BEd21C72cD78cd535E (1000 ETH)
+(8) 0xACa94ef8bD5ffEE41947b4585a84BdA5a3d3DA6E (1000 ETH)
+(9) 0x1dF62f291b2E969fB0849d99D9Ce41e2F137006e (1000 ETH)
+
+Private Keys
+==================
+(0) 0x4f3edf983ac636a65a842ce7c78d9aa706d3b113bce9c46f30d7d21715b23b1d
+(1) 0x6cbed15c793ce57650b9877cf6fa156fbef513c4e6134f022a85b1ffdd59b2a1
+(2) 0x6370fd033278c143179d81c5526140625662b8daa446c22ee2d73db3707e620c
+(3) 0x646f1ce2fdad0e6deeeb5c7e8e5543bdde65e86029e2fd9fc169899c440a7913
+(4) 0xadd53f9a7e588d003326d1cbf9e4a43c061aadd9bc938c843a79e7b4fd2ad743
+(5) 0x395df67f0c2d2d9fe1ad08d1bc8b6627011959b79c53d7dd6a3536a33ab8a4fd
+(6) 0xe485d098507f54e7733a205420dfddbe58db035fa577fc294ebd14db90767a52
+(7) 0xa453611d9419d0e56f499079478fd72c37b251a94bfde4d19872c44cf65386e3
+(8) 0x829e924fdf021ba3dbbc4225edfece9aca04b929d6e75613329ca6f1d31c0bb4
+(9) 0xb0057716d5917badaf911b193b12b910811c1497b5bada8d7711f758981c3773
+
+HD Wallet
+==================
+Mnemonic:      myth like bonus scare over problem client lizard pioneer submit female collect
+Base HD Path:  m/44'/60'/0'/0/{account_index}
+
+Default Gas Price
+==================
+2000000000
+
+BlockGas Limit
+==================
+30000000
+
+Call Gas Limit
+==================
+50000000
+
+Chain
+==================
+Hardfork: shanghai
+Id:       1337
+
+RPC Listening on 127.0.0.1:8545
+eth_blockNumber
+net_version
+eth_accounts
+eth_getBlockByNumber
+eth_accounts
+net_version
+eth_getBlockByNumber
+eth_getBlockByNumber
+net_version
+eth_getBlockByNumber
+eth_estimateGas
+net_version
+eth_blockNumber
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0xd796a34c92b4ccbd627553b371f9e9830e8f980782606c92eb9f35e7822439ee
+  Contract created: 0xe78a0f7e598cc8b0bb87894b0f60dd2a88d6a8ab
+  Gas usage: 153801
+  Block number: 1
+  Block time: Sat Dec 06 2025 00:11:01 GMT+0700 (Western Indonesia Time)
+
+eth_getTransactionReceipt
+eth_getCode
+eth_getTransactionByHash
+eth_getBlockByNumber
+eth_getBalance
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0xbf17dfeca62171584d6ebc37579ad0b78d1843677ed7723807ba975d3369ff5e
+  Gas usage: 45687
+  Block number: 2
+  Block time: Sat Dec 06 2025 00:11:01 GMT+0700 (Western Indonesia Time)
+
+eth_getTransactionReceipt
+eth_getBlockByNumber
+eth_accounts
+net_version
+eth_getBlockByNumber
+eth_getBlockByNumber
+net_version
+eth_getBlockByNumber
+eth_estimateGas
+net_version
+eth_blockNumber
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0x6dc465e1844a60cf8281b058d1b076b7c99e29fe6c79268a5ed00eff719c62e1
+  Contract created: 0xcfeb869f69431e42cdb54a4f4f105c19c080a601
+  Gas usage: 665214
+  Block number: 3
+  Block time: Sat Dec 06 2025 00:11:01 GMT+0700 (Western Indonesia Time)
+
+eth_getTransactionReceipt
+eth_getCode
+eth_getTransactionByHash
+eth_getBlockByNumber
+eth_getBalance
+eth_getBlockByNumber
+net_version
+eth_getBlockByNumber
+eth_getBlockByNumber
+net_version
+eth_getBlockByNumber
+eth_estimateGas
+net_version
+eth_blockNumber
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0xfdd82117683ff44444a8cd9017ab9339c62c1b3adbecee415433479468523744
+  Contract created: 0x254dffcd3277c0b1660f6d42efbb754edababc2b
+  Gas usage: 3747638
+  Block number: 4
+  Block time: Sat Dec 06 2025 00:11:02 GMT+0700 (Western Indonesia Time)
+
+eth_getTransactionReceipt
+eth_getCode
+eth_getTransactionByHash
+eth_getBlockByNumber
+eth_getBalance
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0x311596f0f6aed4500f009fd21e8ed72265aa67eac594d41ee970b4c805f9c6c4
+  Gas usage: 28653
+  Block number: 5
+  Block time: Sat Dec 06 2025 00:11:02 GMT+0700 (Western Indonesia Time)
+
+eth_getTransactionReceipt
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0x10091971b1d8e24b253fc1a07a3d558ec450d523897ec6e2a6a111728d7efcfc
+  Gas usage: 28587
+  Block number: 6
+  Block time: Sat Dec 06 2025 00:11:02 GMT+0700 (Western Indonesia Time)
+
+eth_getTransactionReceipt
+eth_call
+eth_call
+eth_blockNumber
+net_version
+eth_accounts
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_accounts
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0x1e1c3a5333ade198bb1edf5dd91b26ab00b4adf8c92748a4643237f5e18dc89c
+  Gas usage: 140552
+  Block number: 7
+  Block time: Sat Dec 06 2025 00:16:38 GMT+0700 (Western Indonesia Time)
+
+eth_getTransactionReceipt
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0x4e710501563e7a7744d443b7b0068913b8bfe5b25c13fa351988fca1c72d5b1c
+  Gas usage: 122362
+  Block number: 8
+  Block time: Sat Dec 06 2025 00:16:38 GMT+0700 (Western Indonesia Time)
+
+eth_getTransactionReceipt
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0x0d38fc3662e5f477b1633390e019bf7b09eefec7ba52cc6c2b0ccf28096cc978
+  Gas usage: 124542
+  Block number: 9
+  Block time: Sat Dec 06 2025 00:16:38 GMT+0700 (Western Indonesia Time)
+
+eth_getTransactionReceipt
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0xddb300864378e8d81e63f33153a5506351391383a4fbc79a6e8dafaee2491749
+  Gas usage: 123452
+  Block number: 10
+  Block time: Sat Dec 06 2025 00:16:38 GMT+0700 (Western Indonesia Time)
+
+eth_getTransactionReceipt
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0xfd93da663932fdaf058aace8fd66050a9cd3f7e4614201c4bc6fadb3b9a90919
+  Gas usage: 122362
+  Block number: 11
+  Block time: Sat Dec 06 2025 00:16:39 GMT+0700 (Western Indonesia Time)
+
+eth_getTransactionReceipt
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0x5a7f4dfd406b4feb9e35e68233916edc32d064fe4d741a4be0cb997a2bed0715
+  Gas usage: 371214
+  Block number: 12
+  Block time: Sat Dec 06 2025 00:16:39 GMT+0700 (Western Indonesia Time)
+
+eth_getTransactionReceipt
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0xc52f809bd99b0c38bdbded6262f7d27add541997bef8f3bf2159a88f89096ee4
+  Gas usage: 356878
+  Block number: 13
+  Block time: Sat Dec 06 2025 00:16:39 GMT+0700 (Western Indonesia Time)
+
+eth_getTransactionReceipt
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0xcfd30bbbbaffcecae9f56f3f2c1cc5f5443ebd953030863c585629bcd741a624
+  Gas usage: 336906
+  Block number: 14
+  Block time: Sat Dec 06 2025 00:16:39 GMT+0700 (Western Indonesia Time)
+
+eth_getTransactionReceipt
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0x80dccfcca3f988893c678e965d770490fcb716aa25e13566107127da91c8099a
+  Gas usage: 353850
+  Block number: 15
+  Block time: Sat Dec 06 2025 00:16:39 GMT+0700 (Western Indonesia Time)
+
+eth_getTransactionReceipt
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0xe4aa8031333f77f1e6d133fc0d2ff690df1394a48793abfa2b6f12dd4332993e
+  Gas usage: 356926
+  Block number: 16
+  Block time: Sat Dec 06 2025 00:16:39 GMT+0700 (Western Indonesia Time)
+
+eth_getTransactionReceipt
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0x7ba52b3e4a1a6e3c7d4a608d2bc0d54ec1d51045e04344934f0b0a94493e1574
+  Gas usage: 399124
+  Block number: 17
+  Block time: Sat Dec 06 2025 00:16:39 GMT+0700 (Western Indonesia Time)
+
+eth_getTransactionReceipt
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0x3e1d33e7b506819fab517dadaf707869ab075feddf4d14cde8e9c6eca97baae8
+  Gas usage: 286805
+  Block number: 18
+  Block time: Sat Dec 06 2025 00:16:39 GMT+0700 (Western Indonesia Time)
+
+eth_getTransactionReceipt
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0x7d3bb225c932f62883fe35855efe6bb59d090fc3e5f1e71f90f3b3e6c3d0c8d7
+  Gas usage: 269705
+  Block number: 19
+  Block time: Sat Dec 06 2025 00:16:39 GMT+0700 (Western Indonesia Time)
+
+eth_getTransactionReceipt
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call

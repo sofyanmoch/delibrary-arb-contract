@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx truffle migrate:*)",
+      "Bash(truffle migrate:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
